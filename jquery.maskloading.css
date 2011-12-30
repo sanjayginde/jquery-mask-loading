@@ -1,0 +1,21 @@
+.maskable {
+  position:relative;
+}
+
+.maskable .loading-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  background-color: #E5E3DC;
+  z-index: 1500;
+}
+
+.loading {
+  background: url(/images/facebox/loading.gif) transparent no-repeat center center;
+  min-height: 32px;
+  min-width: 32px;
+  height: 100%;
+}
